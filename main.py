@@ -1,13 +1,11 @@
 import streamlit as st
 from bs4 import BeautifulSoup
-import selenium
 import base64
 from gtts import gTTS
 import os
 import pandas as pd
 import csv
 import requests
-import zipfile
 
 #-------------------------------------------------------------
 def word_mp3(word_data):
